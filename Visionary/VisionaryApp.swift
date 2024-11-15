@@ -13,5 +13,6 @@ struct VisionaryApp: App {
         WindowGroup {
             ContentView()
         }
+        .environment(PhotoModel())
     }
 }
